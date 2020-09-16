@@ -14,15 +14,14 @@ function getAmount(){
     else
     {
         if(amount > 0) {
-            totalBalance.innerHTML = totalBalance.innerHTML + amount;
+            var newAmount = totalBalance.innerHTML + amount;
+            totalBalance.innerHTML = newAmount;
             incomeBalance.innerHTML = amount;
-            console.log(amount);
         }
         else if(amount < 0)
         {
             totalBalance.innerHTML = amount;
             expenseBalance.innerHTML = amount;
-            console.log(amount);
         } 
     }  
 }
