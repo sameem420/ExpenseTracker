@@ -1,2 +1,7 @@
 # JS-ExpenseTrackerApp
-Daily income and Expense Tracker Web Application in JavaScript (JS)
+Expense Tracker Web Application in JavaScript (JS)
+
+  - Total Balance
+  - Add Income
+  - Add Expenses
+  
