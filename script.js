@@ -1,12 +1,6 @@
-var totalBalance = document.querySelector("#totalbalance").innerHTML;
-console.log(totalBalance);
-
-var incomeBalance = document.querySelector("#incomebalance").innerHTML;
-console.log(incomeBalance);
-
+var totalBalance = document.querySelector("#totalbalance");
+var incomeBalance = document.querySelector("#incomebalance");
 var expenseBalance = document.querySelector("#expensebalance").innerHTML;
-console.log(expenseBalance);
-
 
 
 var btnAddTransaction = document.getElementById("btnAddtransaction");
@@ -19,6 +13,16 @@ function getAmount(){
     }
     else
     {
-        console.log(amount);
+        if(amount > 0) {
+            totalBalance.innerHTML = amount;
+            incomeBalance.innerHTML = amount;
+            console.log(amount);
+        }
+        else if(amount < 0)
+        {
+            totalBalance = amount;
+            expenseBalance = amount;
+            console.log(amount);
+        } 
     }  
 }
