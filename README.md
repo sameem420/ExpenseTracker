@@ -1,5 +1,5 @@
 # JS-ExpenseTrackerApp
-Expense Tracker Web Application in JavaScript (JS)
+Expense Tracker Web Application in Pure Vanilla JavaScript (JS)
 
   - Total Balance
   - Add Income
