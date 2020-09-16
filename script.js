@@ -23,9 +23,7 @@ function getAmount(){
         {
             let totalBal = parseInt(totalBalance.innerHTML);
             let expBal = parseInt(expenseBalance.innerHTML)
-            console.log(expBal);
             let newAmount = totalBal + parseInt(amount);
-            console.log(newAmount);
             totalBalance.innerHTML = newAmount;
             expenseBalance.innerHTML = expBal - amount;
         } 
