@@ -14,15 +14,20 @@ function getAmount(){
     else
     {
         if(amount > 0) {
-            var tB = parseInt(totalBalance.innerHTML); 
-            var newAmount = tB + parseInt(amount);
+            let totalBal = parseInt(totalBalance.innerHTML); 
+            let newAmount = totalBal + parseInt(amount);
             totalBalance.innerHTML = newAmount;
-            incomeBalance.innerHTML = amount;
+            incomeBalance.innerHTML = newAmount;
         }
         else if(amount < 0)
         {
-            totalBalance.innerHTML = amount;
-            expenseBalance.innerHTML = amount;
+            let totalBal = parseInt(totalBalance.innerHTML);
+            let expBal = parseInt(expenseBalance.innerHTML)
+            console.log(expBal);
+            let newAmount = totalBal + parseInt(amount);
+            console.log(newAmount);
+            totalBalance.innerHTML = newAmount;
+            expenseBalance.innerHTML = expBal - amount;
         } 
     }  
 }
