@@ -7,5 +7,18 @@ console.log(incomeBalance);
 var expenseBalance = document.querySelector("#expensebalance").innerHTML;
 console.log(expenseBalance);
 
-var amount = document.querySelector("#amount").innerHTML;
-console.log(amount);
+
+
+var btnAddTransaction = document.getElementById("btnAddtransaction");
+
+function getAmount(){
+    var amount = document.getElementById("amount").value;
+    if(amount == "")
+    {
+        alert("Please enter an amount first");
+    }
+    else
+    {
+        console.log(amount);
+    }  
+}
