@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense Tracker App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>Expense Tracker</h1>
     <div id="container">
         <h3>Your Balance</h3>
-        <h3>$ 0.00</h3>
+        <h3>$ <span>0.00</span></h3>
+        <hr>
+        <div id="income">
+            INCOME
+            <h3>+$ <span>0.00</span></h3>
+        </div>
+        <div id="expense">
+            EXPENSE
+            <h3>-$ <span>0.00</span></h3>
+        </div>
+        <br><br><br><br><br><br>
+        <hr>
+        <h2>Add new Transaction</h2>
+        <h4>Amount <br> (negative - expense, positive - income)</h4>
+
+        <input type="number" id="amount"  name="amount" placeholder="Enter Amount"><br>
+        <button id="btnAddtransaction">Add Transaction</button>
     </div>
 
 </body>
