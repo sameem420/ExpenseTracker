@@ -14,7 +14,7 @@ function getAmount(){
     else
     {
         if(amount > 0) {
-            totalBalance.innerHTML = amount;
+            totalBalance.innerHTML = totalBalance.innerHTML + amount;
             incomeBalance.innerHTML = amount;
             console.log(amount);
         }
