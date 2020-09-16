@@ -1,6 +1,6 @@
 var totalBalance = document.querySelector("#totalbalance");
 var incomeBalance = document.querySelector("#incomebalance");
-var expenseBalance = document.querySelector("#expensebalance").innerHTML;
+var expenseBalance = document.querySelector("#expensebalance");
 
 
 var btnAddTransaction = document.getElementById("btnAddtransaction");
@@ -20,8 +20,8 @@ function getAmount(){
         }
         else if(amount < 0)
         {
-            totalBalance = amount;
-            expenseBalance = amount;
+            totalBalance.innerHTML = amount;
+            expenseBalance.innerHTML = amount;
             console.log(amount);
         } 
     }  
