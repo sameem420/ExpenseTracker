@@ -8,8 +8,11 @@ body {
     text-align: center;
 }
 
+h2 {
+    color: slateblue;
+}
 #container {
-    width: 70%;
+    width: 50%;
     text-align: center;
     border: 1px solid;
     margin: auto;
@@ -34,6 +37,18 @@ body {
 }
 
 #amount {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 50px;
+    height: 30px;
+    outline: none;
+}
+
+#expensetype {
     width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
