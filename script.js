@@ -22,9 +22,11 @@ function getAmount(){
     {
         if(amount > 0) {
             let totalBal = parseInt(totalBalance.innerHTML); 
+            let incBal = parseInt(incomeBalance.innerHTML);
+            console.log(typeof(incBal));
             let newAmount = totalBal + parseInt(amount);
             totalBalance.innerHTML = newAmount;
-            incomeBalance.innerHTML = newAmount;
+            incomeBalance.innerHTML = parseInt(incBal) + parseInt(amount);
         }
         else if(amount < 0)
         {
