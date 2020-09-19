@@ -9,8 +9,8 @@ function getAmount(){
     var expesneType = document.getElementById("expensetype").value;
     var amount = document.getElementById("amount").value;
     var record = document.createElement("div");
-    record.setAttribute(id, "record");
-    var incomeexpense = document.createTextNode(expesneType + " " + amount);
+    record.setAttribute("id", "record");
+    var incomeexpense = document.createTextNode(expesneType + " | " + amount + "$");
     record.appendChild(incomeexpense);
     transactionRecord.appendChild(record);
 
