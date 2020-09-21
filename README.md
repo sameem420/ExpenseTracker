@@ -10,11 +10,10 @@
     - Keep the record of the Income & Expenses
     
     
+    ### [DEMO](https://js-expensetracker.web.app) 
+    
+    
 ----    
-    
-    
-[DEMO](https://js-expensetracker.web.app)    
-    
     
     
 &copy; 2020 Muhammad Sameem  
