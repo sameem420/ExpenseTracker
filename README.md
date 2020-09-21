@@ -11,7 +11,7 @@
     
     <br><br>
     
-    | [DEMO LINK # 1](https://js-expensetracker.web.app) | [DEMO LINK # 2](https://js-expensetracker.web.app) |
+    | [DEMO LINK # 1](https://js-expensetracker.web.app) | [DEMO LINK # 2](https://sameem420.github.io/JS-ExpenseTrackerApp/) |
     | :-------------: |:-------------:|
     
     <br>
