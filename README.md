@@ -10,7 +10,10 @@
     - Keep the record of the Income & Expenses
     
     
-    ### [DEMO](https://js-expensetracker.web.app) 
+    
+    | [DEMO LINK # 1](https://js-expensetracker.web.app) | [DEMO LINK # 2](https://js-expensetracker.web.app) |
+    | :-------------: |:-------------:|
+    
     
     
 ----    
