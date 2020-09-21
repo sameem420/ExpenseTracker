@@ -13,10 +13,10 @@
     
     | [DEMO LINK # 1](https://js-expensetracker.web.app) | [DEMO LINK # 2](https://sameem420.github.io/JS-ExpenseTrackerApp/) |
     | :-------------: |:-------------:|
-    
+ 
     <br>
     
 ----    
     
     
-&copy; 2020 Muhammad Sameem  
+<p align="center">&copy; 2020 Muhammad Sameem</p>
