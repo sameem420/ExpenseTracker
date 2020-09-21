@@ -9,7 +9,7 @@
   - Transaction History
     - Keep the record of the Income & Expenses
     
-    <br><br>
+    <br>
     
     | [DEMO LINK # 1](https://js-expensetracker.web.app) | [DEMO LINK # 2](https://sameem420.github.io/JS-ExpenseTrackerApp/) |
     | :-------------: |:-------------:|
