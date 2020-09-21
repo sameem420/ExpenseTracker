@@ -13,7 +13,7 @@
 ----    
     
     
-![DEMO](https://js-expensetracker.web.app)    
+[DEMO](https://js-expensetracker.web.app)    
     
     
     
