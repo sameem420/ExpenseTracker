@@ -40,6 +40,6 @@ function getAmount(){
             transactionRecord.appendChild(record);
         } 
     }
-    amount = '';
-    expesneType = '';  
+    document.getElementById("expensetype").value = '';
+    document.getElementById("amount").value  
 }
