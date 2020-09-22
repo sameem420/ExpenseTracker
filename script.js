@@ -10,9 +10,6 @@ function getAmount(){
     var amount = document.getElementById("amount").value;
     var record = document.createElement("div");
     record.setAttribute("id", "record");
-    var incomeexpense = document.createTextNode(expesneType + " | " + amount + "$");
-    record.appendChild(incomeexpense);
-    transactionRecord.appendChild(record);
 
     if(amount == "")
     {
@@ -27,6 +24,9 @@ function getAmount(){
             let newAmount = totalBal + parseInt(amount);
             totalBalance.innerHTML = newAmount;
             incomeBalance.innerHTML = parseInt(incBal) + parseInt(amount);
+            var incomeexpense = document.createTextNode(expesneType + " | " + amount + "$");
+            record.appendChild(incomeexpense);
+            transactionRecord.appendChild(record);
         }
         else if(amount < 0)
         {
@@ -35,6 +35,9 @@ function getAmount(){
             let newAmount = totalBal + parseInt(amount);
             totalBalance.innerHTML = newAmount;
             expenseBalance.innerHTML = expBal - amount;
+            var incomeexpense = document.createTextNode(expesneType + " | " + amount + "$");
+            record.appendChild(incomeexpense);
+            transactionRecord.appendChild(record);
         } 
     }  
 }
