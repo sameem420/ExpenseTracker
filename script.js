@@ -41,5 +41,5 @@ function getAmount(){
         } 
     }
     document.getElementById("expensetype").value = '';
-    document.getElementById("amount").value  
+    document.getElementById("amount").value  = '';
 }
