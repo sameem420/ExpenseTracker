@@ -3,7 +3,6 @@
     font-family: 'Kufam', cursive;
     text-align: center;
 }
-
 h2 {
     color: slateblue;
 }
@@ -13,7 +12,6 @@ h2 {
     border: 1px solid;
     margin: auto;
 }
-
 #income {
     width: 48%;
     min-height: 100px;
@@ -22,7 +20,6 @@ h2 {
     margin-bottom: 10px;
     border-right: steelblue solid;
 }
-
 #expense {
     width: 48%;
     min-height: 100px;
@@ -31,7 +28,6 @@ h2 {
     margin-bottom: 10px;
     border-left: steelblue solid;
 }
-
 #amount {
     width: 80%;
     padding: 12px 20px;
@@ -43,7 +39,6 @@ h2 {
     height: 30px;
     outline: none;
 }
-
 #expensetype {
     width: 80%;
     padding: 12px 20px;
@@ -55,7 +50,6 @@ h2 {
     height: 30px;
     outline: none;
 }
-
 #btnAddtransaction {
     margin: 10px 0px 10px 0px;
     background-color: white; 
@@ -68,13 +62,11 @@ h2 {
     height: 50px;  
     transition-duration: 0.4s;
 }
-
 #btnAddtransaction:hover {
     color:#FFFFFF;
     background-color:#3369ff;
     border: 5px solid #e7e7e7;
 }
-
 #record {
     margin: auto;
     margin-top: 10px;
@@ -93,13 +85,11 @@ h2 {
         width: 80%;
     }
 }
-
 @media screen and (max-width: 450px) {
     #container {
         width: 90%;
     }
 }
-
 @media screen and (max-width: 280px) {
     #container {
         width: 100%;
