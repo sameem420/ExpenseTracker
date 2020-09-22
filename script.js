@@ -39,5 +39,7 @@ function getAmount(){
             record.appendChild(incomeexpense);
             transactionRecord.appendChild(record);
         } 
-    }  
+    }
+    amount = '';
+    expesneType = '';  
 }
