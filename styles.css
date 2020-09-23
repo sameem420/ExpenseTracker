@@ -67,6 +67,24 @@ h2 {
     background-color:#3369ff;
     border: 5px solid #e7e7e7;
 }
+
+#deleteRecord {
+    text-align: center;
+    padding: 2px 1px 0px 0px;
+    margin-top: -5px;
+    background-color: #fa3015; 
+    border: none;
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+
+#deleteRecord:hover {
+    color:#FFFFFF;
+    background-color:#fa3015;
+    border: 2px solid #e7e7e7;
+}
+
 #record {
     margin: auto;
     margin-top: 10px;
