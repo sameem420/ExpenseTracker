@@ -67,13 +67,11 @@ h2 {
     background-color:#3369ff;
     border: 5px solid #e7e7e7;
 }
-
 #deleteRecord {
     float: left;
     width: 25px;
     height: 25px;
     color: white;
-   
     padding: 3px 1px 0px 1px;
     margin-top: -5px;
     background-color: #fa3015; 
@@ -81,11 +79,9 @@ h2 {
     border-bottom: 2px solid white;
     border-radius: 25px;
 }
-
 #deleteRecord:hover {
     border: 2px solid #e7e7e7;
 }
-
 #record {
     margin: auto;
     margin-top: 10px;
