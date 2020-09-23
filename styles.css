@@ -69,19 +69,20 @@ h2 {
 }
 
 #deleteRecord {
-    text-align: center;
-    padding: 2px 1px 0px 0px;
-    margin-top: -5px;
-    background-color: #fa3015; 
-    border: none;
     float: left;
     width: 25px;
     height: 25px;
+    color: white;
+   
+    padding: 3px 1px 0px 1px;
+    margin-top: -5px;
+    background-color: #fa3015; 
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 25px;
 }
 
 #deleteRecord:hover {
-    color:#FFFFFF;
-    background-color:#fa3015;
     border: 2px solid #e7e7e7;
 }
 
@@ -95,7 +96,6 @@ h2 {
     background-color: gray;
     color: white;
     border-right: 5px solid #2ecc71;
-    
 }
 
 @media screen and (max-width: 1166px) {
