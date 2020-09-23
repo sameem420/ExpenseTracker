@@ -17,6 +17,8 @@ function getAmount(){
     var delButton = document.createElement("button");
     delButton.setAttribute("id", "deleteRecord");
 
+    delButton.addEventListener('click', function(){ this.parentNode.remove(); })
+
     if(amount == "")
     {
         alert("Please enter an amount first");
