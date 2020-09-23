@@ -78,6 +78,7 @@ h2 {
     border: none;
     border-bottom: 2px solid white;
     border-radius: 25px;
+    font-weight: 600;
 }
 #deleteRecord:hover {
     border: 2px solid #e7e7e7;
