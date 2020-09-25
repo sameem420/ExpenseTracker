@@ -16,7 +16,8 @@ function getAmount(){
     record.setAttribute("id", "record");
     var delButton = document.createElement("button");
     delButton.setAttribute("id", "deleteRecord");
-
+    var delText = document.createTextNode("X");
+    delButton.appendChild(delText);
     delButton.addEventListener('click', function(){ this.parentNode.remove(); })
 
     if(amount == "")
@@ -33,8 +34,6 @@ function getAmount(){
             totalBalance.innerHTML = newAmount;
             incomeBalance.innerHTML = parseInt(incBal) + parseInt(amount);
             var incomeexpense = document.createTextNode(expesneType + " | " + amount + "$");
-            var delText = document.createTextNode("X");
-            delButton.appendChild(delText);
             record.appendChild(delButton);
             record.appendChild(incomeexpense);
             transactionRecord.appendChild(record);
@@ -48,8 +47,6 @@ function getAmount(){
             totalBalance.innerHTML = newAmount;
             expenseBalance.innerHTML = expBal - amount;
             var incomeexpense = document.createTextNode(expesneType + " | " + amount + "$");
-            var delText = document.createTextNode("X");
-            delButton.appendChild(delText);
             record.appendChild(delButton);
             record.appendChild(incomeexpense);
             transactionRecord.appendChild(record);
