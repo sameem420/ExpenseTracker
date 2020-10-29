@@ -1,5 +1,5 @@
-# JavaScriptApp-ExpenseTrackerApp
-### Expense Tracker Web Application in Pure Vanilla JavaScript (JS)
+# JavaScriptApp-ExpenseTracker
+### Expense Tracker Web App developed in Vanilla JavaScript (JS)
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
