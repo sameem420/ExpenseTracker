@@ -11,14 +11,12 @@
   - Transaction History
     - Keep the record of the Income & Expenses
     
-    <br>
-    
-    | [Firebase DEMO](https://js-expensetracker.web.app) | [GitHub DEMO](https://sameem420.github.io/JS-ExpenseTrackerApp/) |
+    <hr/>
+   
+    | [Firebase DEMO](https://js-expensetracker.web.app) | [GitHub DEMO](https://sameem420.github.io/ExpenseTracker/) |
     | :-------------: |:-------------:|
  
-    <br>
-    
-----    
+    <hr/> 
     
     
 <p align="center">&copy; 2020 Muhammad Sameem</p>
