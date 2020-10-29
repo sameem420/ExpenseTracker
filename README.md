@@ -1,5 +1,7 @@
-# JS-ExpenseTrackerApp
+# JavaScriptApp-ExpenseTrackerApp
 ### Expense Tracker Web Application in Pure Vanilla JavaScript (JS)
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
   - Total Balance
   - Add Income
@@ -11,7 +13,7 @@
     
     <br>
     
-    | [DEMO LINK # 1](https://js-expensetracker.web.app) | [DEMO LINK # 2](https://sameem420.github.io/JS-ExpenseTrackerApp/) |
+    | [Firebase DEMO](https://js-expensetracker.web.app) | [GitHub DEMO](https://sameem420.github.io/JS-ExpenseTrackerApp/) |
     | :-------------: |:-------------:|
  
     <br>
